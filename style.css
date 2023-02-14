@@ -40,3 +40,10 @@ section {
   visibility: hidden;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.current-conditions-panel {
+  border: 1px solid seagreen;
+  border-right: none;
+  padding-left: 10px;
+  padding-bottom: 25px;
+}
