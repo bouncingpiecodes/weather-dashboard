@@ -25,3 +25,18 @@ section {
 .search-button-panel {
   margin-left: -42px;
 }
+
+.city-list-box {
+  margin-top: 5px;
+}
+
+.city-name {
+  width: 85%;
+}
+
+.results-panel {
+  width: 70%;
+  padding-bottom: 10px;
+  visibility: hidden;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
