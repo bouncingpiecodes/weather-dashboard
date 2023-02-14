@@ -14,3 +14,14 @@ section {
   display: flex;
   justify-content: center;
 }
+
+.search-panel {
+  width: 20%;
+  margin: 10px 20px 0 10px;
+  padding: 10px 0 10px 10px;
+  background-color: pink;
+}
+
+.search-button-panel {
+  margin-left: -42px;
+}
