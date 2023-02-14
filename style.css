@@ -47,3 +47,36 @@ section {
   padding-left: 10px;
   padding-bottom: 25px;
 }
+
+.name-block,
+.uv-index-block {
+  display: flex;
+  align-items: center;
+}
+
+#uv-index {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+.forecast-panel {
+  padding-top: 50px;
+}
+
+.container {
+  display: inline;
+}
+
+.card-header,
+.card-body {
+  text-align: center;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+}
+
+.card-body {
+  background-color: hotpink;
+}
