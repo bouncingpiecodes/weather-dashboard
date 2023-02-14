@@ -7,5 +7,10 @@ main {
 }
 
 section {
-  margin-top: 10px;
+  margin-top: 8px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
 }
