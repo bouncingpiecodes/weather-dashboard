@@ -1,0 +1,11 @@
+body {
+  margin: 5px;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  margin-top: 10px;
+}
