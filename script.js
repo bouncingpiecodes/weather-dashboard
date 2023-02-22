@@ -44,8 +44,8 @@ function getResult() {
   var wind = $("<div>");
   var humidity = $("<div>");
   var uvIndex = $("<div>");
-  // var icon = $("<img>");
-  // icon.addClass("icon");
+  var icon = $("<img>");
+  icon.addClass("icon");
   var dateTime = $("<div>");
 
   $(".city").addClass("list-group");
@@ -169,7 +169,7 @@ function getResult() {
                   moment(data.list[i].dt_txt).format("L") !==
                     moment().format("L")
                 ) {
-                  //checks to output weather at noon for each day
+                  // checks to output weather at noon for each day
 
                   var blueContainer = $("<div>");
                   this["futureDate" + i] = $("<h>");
@@ -219,7 +219,7 @@ function getResult() {
         });
     });
 }
-
+// function get info for current weather lists
 function getInfo() {
   var currentList = localStorage.getItem("city");
   if (currentList !== null) {
